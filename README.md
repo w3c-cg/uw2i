@@ -1,6 +1,6 @@
 # UTXO Web Wallet Interoperability Community Group (UW2ICG) 
 
-This repository hosts the W3C Community Group Draft for integrating **UTXO-DNS** (`.utxo` domains) into the Web platform. It defines APIs to bridge **IETF UTXO6-DNS resolution** with Web applications, enabling seamless:
+This repository hosts the [UTXO Web Wallet Interoperability Community Group](https://www.w3.org/groups/cg/uw2i/) work related to the integration of **UTXO-DNS** (`.utxo` domains) into the Web platform. It defines APIs to bridge **IETF UTXO6-DNS resolution** with Web applications, enabling seamless:
 
 - **Cryptocurrency Payments** via Web Payments API extension (`utxo-payment`)
 - **Decentralised Identity (DID)** via the `did:utxo` method
