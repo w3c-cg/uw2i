@@ -4,7 +4,7 @@
 # UTXO-DNS Web Integration
 
 **Group:** UTXO Web Wallet Interoperability Community Group (UW2ICG)  
-**Charter:** [https://www.w3.org/community/utxo-web-wallet/](https://www.w3.org/community/utxo-web-wallet/)  
+**Charter:** 
 **Editors:** Guorong Tian (CoCa Foundation), Shiwen Tian (UW2ICG), Yidan Zhu (UW2ICG)  
 
 This repository hosts the W3C Community Group Draft for integrating **UTXO-DNS** (`.utxo` domains) into the Web platform. It defines standardised APIs to bridge **IETF UTXO6-DNS resolution** with Web applications, enabling seamless:
@@ -16,8 +16,8 @@ This repository hosts the W3C Community Group Draft for integrating **UTXO-DNS**
 ## Status
 This is a **Work in Progress (WIP)**. The group is collecting implementation experience.
 
-- Latest Editor's Draft: [https://uw2icg.github.io/utxo-web-integration/](https://uw2icg.github.io/utxo-web-integration/)
-- IETF Base Spec: [draft-guorong-utxo6-dns-base-00](https://datatracker.ietf.org/doc/draft-guorong-utxo6-dns-base/)
+- Latest Editor's Draft: foundation@utxocp.cn
+- IETF Base Spec: [draft-guorong-utxo6-dns-base-00]https://datatracker.ietf.org/submit/status/161673/confirm/7364e157d123d1f4be78a5abb17e3506/
 
 ## Repository Structure
 - `spec/` - Specification source files (Bikeshed & HTML)
