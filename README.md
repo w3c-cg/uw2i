@@ -16,8 +16,7 @@ This repository hosts the W3C Community Group Draft for integrating **UTXO-DNS**
 ## Status
 This is a **Work in Progress (WIP)**. The group is collecting implementation experience.
 
-- Latest Editor's Draft: foundation@utxocp.cn
-- IETF Base Spec: [draft-guorong-utxo6-dns-base-00](https://datatracker.ietf.org/submit/status/161673/confirm/7364e157d123d1f4be78a5abb17e3506/)
+The community will consider as input to its work [draft-guorong-utxo6-dns-base-00](https://datatracker.ietf.org/submit/status/161673/confirm/7364e157d123d1f4be78a5abb17e3506/).
 
 ## Repository Structure
 - `spec/` - Specification source files (Bikeshed & HTML)
