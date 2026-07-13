@@ -7,10 +7,12 @@ This repository hosts the [UTXO Web Wallet Interoperability Community Group](htt
 - **Wallet Interoperability** through the `navigator.utxo` API
 
 ## Status
+
 This is a **Work in Progress (WIP)**. The group is collecting implementation experience.
 
-The community will consider as input to its work [draft-guorong-utxo6-dns-base-01](https://datatracker.ietf.org/submit/status/161673/confirm/7364e157d123d1f4be78a5abb17e3506/).
-(https://github.com/cocafoundation6/utxo6-dns/releases/tag/v0.1.0)
+The community will consider as input to its work **[`draft-guorong-utxo6-dns-base-01`](https://datatracker.ietf.org/doc/draft-guorong-utxo6-dns/)**.
+
+Reference implementation: **[UTXO6-DNS v0.1.0](https://github.com/cocafoundation6/utxo6-dns/releases/tag/v0.1.0)**
 
 
 ## Repository Structure
@@ -20,3 +22,5 @@ The community will consider as input to its work [draft-guorong-utxo6-dns-base-0
 
 ## Contributing
 Feedback and pull requests are welcome. Please refer to the [Contribution Guidelines](CONTRIBUTING.md).
+
+docs: fix links to IETF draft and reference implementation
