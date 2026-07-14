@@ -1,4 +1,4 @@
-<img width="640" height="640" alt="ecad56f1e8304231ee99568b916d30f3" src="https://github.com/user-attachments/assets/edb6c5aa-18c2-4071-a105-973352604229" />
+<img width="640" height="640" alt="ecad56f1e8304231ee99568b916d30f3" src="https://github.com/user-attachments/assets/41feb3c4-b0b5-402a-8fc1-6f6498423280" />Image dimensions/150-200
 
 
 <h1 align="center">UTXO Web Wallet Interoperability Community Group (UW2ICG)</h1>
