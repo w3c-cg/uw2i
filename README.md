@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/images/brand.jpg" alt="Consortium World Web" width="600">
+</p>
+
 # UTXO Web Wallet Interoperability Community Group (UW2ICG) 
 
 This repository hosts the [UTXO Web Wallet Interoperability Community Group](https://www.w3.org/groups/cg/uw2i/) work related to the integration of **UTXO-DNS** (`.utxo` domains) into the Web platform. It defines APIs to bridge **IETF UTXO6-DNS resolution** with Web applications, enabling seamless:
@@ -19,6 +23,8 @@ Reference implementation: **[UTXO6-DNS v0.1.0](https://github.com/cocafoundation
 - `spec/` - Specification source files (Bikeshed & HTML)
 - `explainers/` - Supplementary materials (Charter, Use Cases)
 - `api/` - WebIDL definitions
+
+- docs: add consortium brand image to README
 
 ## Contributing
 Feedback and pull requests are welcome. Please refer to the [Contribution Guidelines](CONTRIBUTING.md).
