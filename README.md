@@ -29,3 +29,4 @@ Reference implementation: **[UTXO6-DNS v0.1.0](https://github.com/cocafoundation
 Feedback and pull requests are welcome. Please refer to the [Contribution Guidelines](CONTRIBUTING.md).
 
 docs: fix IETF draft link and add reference implementation link
+docs: add consortium brand image to README (width: 150)
