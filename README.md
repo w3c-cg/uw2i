@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="assets/images/brand.jpg" alt="Consortium World Web" width="600">
-</p>
+<img width="640" height="640" alt="ecad56f1e8304231ee99568b916d30f3" src="https://github.com/user-attachments/assets/edb6c5aa-18c2-4071-a105-973352604229" />
+
 
 # UTXO Web Wallet Interoperability Community Group (UW2ICG) 
 
