@@ -47,10 +47,3 @@ Reference implementation: **[UTXO6-DNS v0.1.0](https://github.com/cocafoundation
 ## Contributing
 Feedback and pull requests are welcome. Please refer to the [Contribution Guidelines](CONTRIBUTING.md).
 
-docs: fix IETF draft link and add reference implementation link
-docs: add W3C（World Wide Web Consortium）consortium brand image to README (width: 150)
-docs: update README header with bold+blue key terms for global compliance
-
-- Highlight core fields: crypto-fiat compliance, stablecoins, vLEI, KYC/AML
-- Expand regulatory alignment to global frameworks
-- Add blue color to key terms for visual emphasis
