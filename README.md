@@ -59,3 +59,10 @@ Reference implementation: **[UTXO6-DNS v0.1.0](https://github.com/cocafoundation
 ## Contributing
 Feedback and pull requests are welcome. Please refer to the [Contribution Guidelines](CONTRIBUTING.md).
 
+## Key Resources
+
+- **Reference Implementation:** [`cocafoundation6/utxo6-dns`](https://github.com/cocafoundation6/utxo6-dns)
+  - **Pluggable Wallet SDK:** [`integrations/tee-wallet-pluggable/`](https://github.com/cocafoundation6/utxo6-dns/tree/main/integrations/tee-wallet-pluggable) – A modular, pluggable SDK demonstrating UTXO-DNS resolution, TEE verification, multi-chain transactions, IPv6 visualization, and vLEI compliance in a single cohesive framework.
+ 
+docs: add pluggable UTXO TEE wallet SDK reference to README
+
