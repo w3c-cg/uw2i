@@ -1,7 +1,7 @@
 <table>
   <tr>
-    <td width="180" style="vertical-align: middle; padding-right: 20px;">
-      <img src="https://github.com/user-attachments/assets/41feb3c4-b0b5-402a-8fc1-6f6498423280" alt="logo" width="180">
+    <td width="300" style="vertical-align: middle; padding-right: 20px;">
+      <img src="https://github.com/user-attachments/assets/41feb3c4-b0b5-402a-8fc1-6f6498423280" alt="logo" width="300">
     </td>
     <td style="vertical-align: middle;">
       <h1>UTXO Web Wallet Interoperability Community Group (UW2ICG)</h1>
