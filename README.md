@@ -1,14 +1,16 @@
-<table>
-  <tr>
-    <td width="300" style="vertical-align: middle; padding-right: 20px;">
-      <img src="https://github.com/user-attachments/assets/41feb3c4-b0b5-402a-8fc1-6f6498423280" alt="logo" width="300">
-    </td>
-    <td style="vertical-align: middle;">
-      <h1>UTXO Web Wallet Interoperability Community Group (UW2ICG)</h1>
-      <p><strong>Bridging Crypto and Regulated Fiat Wallets</strong></p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/41feb3c4-b0b5-402a-8fc1-6f6498423280" alt="logo" width="300">
+</p>
+
+<h1 align="center">UTXO Web Wallet Interoperability Community Group (UW2ICG)</h1>
+
+<p align="center"><strong>Bridging Crypto and Regulated Fiat Wallets</strong></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/IETF-Experimental-blue" alt="IETF">
+  <img src="https://img.shields.io/badge/W3C-UW2I_CG-blue" alt="W3C">
+  <img src="https://img.shields.io/badge/License-Apache_2.0-blue" alt="License">
+</p>
 
 
 <h1 align="center">UTXO Web Wallet Interoperability Community Group (UW2ICG)</h1>
