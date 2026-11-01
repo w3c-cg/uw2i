@@ -236,30 +236,27 @@ stateDiagram-v2
     direction TB
     [*] --> AVAILABLE: Initial State
 
-    AVAILABLE --> ACTIVE: REGISTER\n(Create Identity Anchor UTXO + Write CBOR record)
-    note right of AVAILABLE: TEE Verification:\nDomain hash does not exist\n& TEE proof is valid
+    AVAILABLE --> ACTIVE: REGISTER<br/>(Create Identity Anchor UTXO + Write CBOR record)
+    note right of AVAILABLE: TEE Verification:<br/>Domain hash does not exist<br/>and TEE proof is valid
 
     state ACTIVE {
         [*] --> Valid
-        Valid --> Valid: UPDATE\n(Sign to update CBOR endpoint mapping)
-        Valid --> Valid: TRANSFER\n(Transfer owner public key / Multi-sig)
+        Valid --> Valid: UPDATE<br/>(Sign to update CBOR endpoint mapping)
+        Valid --> Valid: TRANSFER<br/>(Transfer owner public key / Multi-sig)
     }
     
-    note left of ACTIVE: TEE Verification Rules:
-    note left of ACTIVE: 1. UTXO Unspent (T12)
-    note left of ACTIVE: 2. Signature & Nonce Valid (T11)
-    note left of ACTIVE: 3. Endpoint Hash Match (T8/T9)
+    note left of ACTIVE: TEE Verification Rules:<br/>1. UTXO Unspent (T12)<br/>2. Signature and Nonce Valid (T11)<br/>3. Endpoint Hash Match (T8/T9)
 
-    ACTIVE --> GRACE_PERIOD: Timestamp > expires_at\n(Triggered by block height or TEE time)
-    note right of GRACE_PERIOD: Grace Period (e.g., 30-90 days)\nOriginal owner can renew during this time
+    ACTIVE --> GRACE_PERIOD: Timestamp > expires_at<br/>(Triggered by block height or TEE time)
+    note right of GRACE_PERIOD: Grace Period (e.g., 30-90 days)<br/>Original owner can renew during this time
 
-    GRACE_PERIOD --> ACTIVE: Renewal\n(Pay renewal fee & update expires_at)
+    GRACE_PERIOD --> ACTIVE: Renewal<br/>(Pay renewal fee and update expires_at)
     
     GRACE_PERIOD --> EXPIRED: Grace Period Timeout
-    note right of EXPIRED: Domain becomes dead\nAnyone can initiate reclaim
+    note right of EXPIRED: Domain becomes dead<br/>Anyone can initiate reclaim
 
-    EXPIRED --> AVAILABLE: RECLAIM\n(Trigger reclaim script)
-    note right of EXPIRED: Reclaimer receives incentive\nOriginal Identity Anchor UTXO is spent & destroyed
+    EXPIRED --> AVAILABLE: RECLAIM<br/>(Trigger reclaim script)
+    note right of EXPIRED: Reclaimer receives incentive<br/>Original Identity Anchor UTXO is spent and destroyed
 ```
 
 *Caption: The lifecycle of a Consumer Domain is driven by four core primitives. Every state transition is strictly constrained by TEE cryptographic verifications (referencing test cases T8, T9, T11, T12), ensuring that domain ownership and endpoint mappings cannot be forged or hijacked.*
